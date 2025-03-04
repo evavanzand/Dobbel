@@ -57,11 +57,11 @@ var speler2 = randomNumber2;
 
 function winnerTekst(speler1, speler2){
     if (speler1 < speler2){
-        document.getElementById("title").innerHTML = "Speler 2 Wint!";
+        document.getElementById("title").innerHTML = "Player 2 wins!";
     } else if (speler2 < speler1) {
-        document.getElementById("title").innerHTML = "Speler 1 Wint!";
+        document.getElementById("title").innerHTML = "Player 1 wins!";
     } else {
-        document.getElementById("title").innerHTML = "Gelijkspel";
+        document.getElementById("title").innerHTML = "Draw";
     }
 }
 
